@@ -24,7 +24,7 @@ class _ResultPageState extends State<ResultPage> {
 
   loadModel() async {
     await Tflite.loadModel(
-      model: "assets/model.tflite",
+      model: "assets/my_model.tflite",
       labels: "assets/labels.txt",
     );
   }
